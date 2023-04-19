@@ -1,0 +1,78 @@
+.houses {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+}
+
+.house__card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+    align-items: center;
+}
+
+.house__card {
+    border: 2px solid gray;
+    padding: 1.2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.house__card:hover{
+    transform: translateY(-4px);
+}
+
+.house__card-subtitle {
+    margin: 0.5rem;
+}
+
+.house__card-description {
+    max-width: 35ch;
+}
+
+.house__card-img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+.house__card-price{
+    font-style: italic;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 1px;
+    margin: 0.5rem;
+}
+
+.house__subtitle {
+    text-transform: uppercase;
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+    
+}
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

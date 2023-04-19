@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+  <title>Air B&B</title>
+</head>
+
+<body>
+  <header class="container header">
+    <nav>
+      <ul class="header__menu">
+        <li><a class="header__links" href="#">About</a></li>
+        <li><a class="header__links" href="#">Work</a></li>
+        <li><a class="header__links" href="#">Contact</a></li>
+        <li class="header__line"></li>
+        <div class="header__btn-container">
+          <button class="btn header__btn-login">Login</button>
+          <button class="btn header__btn-logout">Logout</button>
+        </div>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container">
+      <h3 class="hero__subtitle">Looking for a place to call home ?</h3>
+      <h1 class="hero__title">AIR B&B</h1>
+      <p class="hero__description">We offer affordable houses in nice neighborhoods,<br> sorrounded with green scenery
+        and tranquility</p>
+      <a class="hero__btn" href="#">Reach Out</a>
+    </section>
+    <section class="houses container section">
+      <h2 class="house__subtitle">Our Houses:</h2>
+      <div class="house__card-container">
+        <div class="house__card house__card-1">
+          <img class="house__card-img" src="./pexels-jens-mahnke-1105754.jpg" alt="house picture">
+          <h4 class="house__card-subtitle">House</h4>
+          <p class="house__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, a.</p>
+          <p class="house__card-price">$ 85,500</p>
+        </div>
+        <div class="house__card house__card-2">
+          <img class="house__card-img" src="./pexels-lisa-fotios-3825883.jpg" alt="house picture">
+          <h4 class="house__card-subtitle">House</h4>
+          <p class="house__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, a.</p>
+          <p class="house__card-price">$ 102,200</p>
+        </div>
+        <div class="house__card house__card-3">
+          <img class="house__card-img" src="./pexels-matheus-bertelli-2980955.jpg" alt="house picture">
+          <h4 class="house__card-subtitle">House</h4>
+          <p class="house__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, a.</p>
+          <p class="house__card-price">$ 65,000</p>
+        </div>
+        <div class="house__card house__card-4">
+          <img class="house__card-img" src="./pexels-scott-webb-1022936.jpg" alt="house picture">
+          <h4 class="house__card-subtitle">House</h4>
+          <p class="house__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, a.</p>
+          <p class="house__card-price">$ 240,500</p>
+        </div>
+        <div class="house__card house__card-5">
+          <img class="house__card-img" src="./pexels-scott-webb-1029599.jpg" alt="house picture">
+          <h4 class="house__card-subtitle">House</h4>
+          <p class="house__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, a.</p>
+          <p class="house__card-price">$ 144,450</p>
+        </div>
+        <div class="house__card house__card-6">
+          <img class="house__card-img" src="./public/pexels-sindre-fs-950058.jpg" alt="house picture">
+          <h4 class="house__card-subtitle">House</h4>
+          <p class="house__card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, a.</p>
+          <p class="house__card-price">$ 100,000</p>
+        </div>
+      </div>
+    </section>
+    <section class="reviews container section">
+      <div class="reviews__main">
+        <h2 class="reviews__title">Reviews of our costumers</h2>
+      </div>
+      <div class="reviews__container">
+        <div class="reviews__buyers">
+          <div class="reviews__img-container">
+            <img class="reviews__img" src="./pexels-andrea-piacquadio-712513.jpg" alt="Person Picture">
+          </div>
+          <div class="reviews__description-container">
+            <h3 class="reviews__description-subtitle">Andrea Piacquadio</h3>
+            <p class="reviews__description-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Obcaecati
+              impedit tenetur voluptate magni porro tempore.</p>
+          </div>
+        </div>
+        <div class="reviews__buyers">
+          <div class="reviews__img-container">
+            <img class="reviews__img" src="./pexels-jens-mahnke-1105754.jpg" alt="Person Picture">
+          </div>
+          <div class="reviews__description-container">
+            <h3 class="reviews__description-subtitle">Jens Mahnke</h3>
+            <p class="reviews__description-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Obcaecati
+              impedit tenetur voluptate magni porro tempore.</p>
+          </div>
+        </div>
+        <div class="reviews__buyers">
+          <div class="reviews__img-container">
+            <img class="reviews__img" src="./pexels-justin-shaifer-1222271.jpg" alt="Person Picture">
+          </div>
+          <div class="reviews__description-container">
+            <h3 class="reviews__description-subtitle">Justing Shaifer</h3>
+            <p class="reviews__description-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Obcaecati
+              impedit tenetur voluptate magni porro tempore.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container section">
+    <p>&copy; Abdullah Hajrizaj</p>
+  </footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
